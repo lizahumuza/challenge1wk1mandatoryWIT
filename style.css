@@ -1,0 +1,105 @@
+.navbar {
+    width: 250px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    
+  }
+  
+  .navbar a {
+    background-color:white;
+    color:darkslategrey;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a:hover {
+    background-color: #ccc;
+  }
+  
+  .navbar a.active {
+    background-color: white;
+    color:black;
+
+  }
+  .main {
+    margin-left: 250px; 
+    font-size: 18px; 
+    padding: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkslategrey;
+  }
+  h2{
+      color: black;
+      font-size: 25px;
+  }
+/*.vertical-menu {
+    width: 160px;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .vertical-menu a {
+    padding: 6px 8px 6px 16px;
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .main {
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+  }*/
+  /*.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:blue;
+    overflow-y: auto;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px;  Same as the width of the sidenav 
+    font-size: 28px;  
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }*/
